@@ -7,6 +7,8 @@ object ReversedSeq extends App {
   def makeList(Number: Int): List[Int] = {
     val x = (1 to Number).toList.reverse
     x
+
+
   }
 
   println("Please enter a number:")
